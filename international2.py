@@ -39,7 +39,7 @@ with header:
 
 	with background:
 		st.text("This is how our data looks like after importing into a dataframe.")
-		brewery_df = pd.read_csv('./file/international.csv')
+		brewery_df = pd.read_csv('./file2/international.csv')
 		st.download_button(label = 'Download dataset', data = brewery_df.to_csv(), file_name = 'brewery_sales.csv', mime='csv', help = 'This allows you to download the complete dataset')
 # In[3]:
 
