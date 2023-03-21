@@ -312,6 +312,10 @@ st.markdown('* **5.** It was observed the the Gateway depot produced the hihest 
 url = 'To view more of my projects and connect with me, kindly click [Here](https://letters-of-michael.github.io/Oluwaseyi-Michael.github.io/)'
 st.markdown(url, unsafe_allow_html=True)
 
+urlp = 'To view my portfolio and contact me, please click  [Portfolio](https://letters-of-michael.github.io/Oluwaseyi-Michael.github.io/)'
+st.markdown(urlp,unsafe_allow_html=True)
+
+
 
 st.write('By Oluwaseyi-Michael')
 
