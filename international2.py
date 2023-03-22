@@ -39,14 +39,14 @@ with header:
 
 	with background:
 		st.text("This is how our data looks like after importing into a dataframe.")
-		brewery_df = pd.read_csv('./image/international2.csv')
+		#brewery_df = pd.read_csv('./image/international2.csv')
 	
 	with open('image/international.csv.zip', 'rb') as fp:
 		st.download_button(label = 'Download dataset', data = fp, file_name = 'brewery_sales.zip', mime='application/zip', help = 'This allows you to download the complete dataset')
 # In[3]:
 
 
-		brewery_df
+		#brewery_df
 
 
 # # Getting an overall information about our data, to note mistakes and propably any incoplete cell
